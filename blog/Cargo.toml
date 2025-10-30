@@ -1,0 +1,12 @@
+[package]
+name = "blog"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+utils={path="../utils"}
+axum.workspace = true
+serde.workspace = true
+sqlx.workspace = true
+uuid.workspace = true
+chrono.workspace = true
